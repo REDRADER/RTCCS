@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:background="@drawable/student_item"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <LinearLayout
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20dp"
+                    android:fontFamily="@font/bold"
+                    android:textColor="@color/gray"
+                    android:text="Name"/>
+
+                <TextView
+                    android:id="@+id/email"
+
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:textColor="@color/gray"
+                    android:text="Email"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="20dp"
+
+
+                        android:fontFamily="@font/medium"
+                        android:textColor="@color/gray"
+                        android:text="Phone"/>
+                    <TextView
+                        android:id="@+id/years"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:fontFamily="@font/medium"
+                        android:layout_marginStart="7dp"
+                        android:textColor="@color/red"
+                        android:textSize="20dp"
+                        android:text="Year"/>
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/status"
+
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:textColor="@color/red"
+                    android:text="Status"/>
+
+
+
+            </LinearLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:src="@drawable/profile"
+                android:layout_gravity="end"
+                app:civ_border_width="3dp"
+
+                android:layout_alignParentEnd="true"
+                app:civ_border_color="@color/gray"
+                android:id="@+id/img_student"/>
+
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Verify"
+                android:background="@drawable/smallbutton_gray"
+                android:id="@+id/verify_button"
+                android:textColor="@color/white"
+                android:fontFamily="@font/medium"
+                android:textAllCaps="false"
+                android:layout_marginStart="25dp"
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/not_verify_button"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/medium"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/smallbutton_red"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@id/verify_button"
+                android:text="Block" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

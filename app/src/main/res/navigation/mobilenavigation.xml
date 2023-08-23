@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobilenavigation"
+    app:startDestination="@+id/navigation_home"
+    >
+    <fragment android:id="@+id/navigation_home"
+        android:name="com.example.rtccs.AdminActivity.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment android:id="@+id/navigation_notice"
+        android:name="com.example.rtccs.AdminActivity.ui.NoticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice"/>
+    <fragment android:id="@+id/navigation_student"
+        android:name="com.example.rtccs.AdminActivity.ui.StudentFragment"
+        android:label="Student"
+        tools:layout="@layout/fragment_student"/>
+    <fragment android:id="@+id/navigation_Profile"
+        android:name="com.example.rtccs.AdminActivity.ui.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
+    <fragment android:id="@+id/navigation_gallery"
+        android:name="com.example.rtccs.AdminActivity.ui.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery"/>
+
+
+</navigation>

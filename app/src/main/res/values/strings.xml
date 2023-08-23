@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">St. Wilfred College</string>
+
+    <string-array name="years">
+        <item>FYIT</item>
+        <item>SYIT</item>
+        <item>TYIT</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+    <string name="aboutusstart">To create intellectual manpower relevant to the industry and society as a whole.
+To collaborate with premier benchmarked institutions of international repute.
+To promote innovation and research through conducive environment by fostering freedom and  empowerment.
+To nurture our intellectual capital through a perfect blend of the traditional as well as contemporary ways and means, for the comprehensive development of the society.
+To provide a conducive environment for proper harnessing latent talent of students and encourage them to take initiatives for the development of their personality.
+To promote research, discovery and entrepreneurship through collaborative action
+To build responsible citizens of the world, by instilling a culture of seamlessness in all facets of life.</string>
+</resources>

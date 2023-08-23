@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity.ui.ChatFragment"
+    android:background="@color/white">
+
+    <Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gray"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+         />
+
+
+    <TextView
+        android:layout_marginStart="50dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/medium"
+        android:text="Select Class to Change Url"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+         />
+
+    <ListView
+        android:id="@+id/list_year"
+        android:layout_width="match_parent"
+        android:layout_height="670dp"
+        android:padding="5dp"
+        android:layout_below="@+id/toolbar2"
+
+        />
+
+</RelativeLayout>

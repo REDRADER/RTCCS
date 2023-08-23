@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/profile"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+            android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:textSize="20dp"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/red"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="6dp">
+           <TextView
+               android:id="@+id/gallery_caption"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/medium"
+               android:textColor="@color/gray"
+               android:text="Gallery title"
+               android:textSize="20dp"
+               android:layout_marginBottom="5dp"
+               android:layout_marginTop="45dp"
+               />
+
+
+           <ImageView
+               android:id="@+id/gallery_img"
+               android:layout_width="match_parent"
+               android:layout_height="400dp"
+               android:scaleType="centerCrop"
+               android:src="@drawable/profile"/>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="5dp"
+              android:layout_gravity="end">
+               <TextView
+                   android:id="@+id/gallery_date"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:fontFamily="@font/light"
+                   android:textColor="@color/gray"
+                   android:text="notice date"
+                   android:textSize="15dp"
+                   />
+               <TextView
+                   android:id="@+id/gallery_time"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:fontFamily="@font/light"
+                   android:textColor="@color/red"
+                   android:layout_marginStart="4dp"
+                   android:text="notice time"
+                   android:textSize="15dp"
+                   />
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+        <Button
+            android:id="@+id/delete_photo"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

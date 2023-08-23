@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "378168401586",
+    "firebase_url": "https://rtccs-60f0f.firebaseio.com",
+    "project_id": "rtccs-60f0f",
+    "storage_bucket": "rtccs-60f0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378168401586:android:7ba311d9d625796f65f3ab",
+        "android_client_info": {
+          "package_name": "com.example.rtccs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378168401586-qs91hkalebh6jnebgsn557v5g6c2u71i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx8fjRx-5S3lyvBupWFWGfxk9ccYaxChY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378168401586-qs91hkalebh6jnebgsn557v5g6c2u71i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
